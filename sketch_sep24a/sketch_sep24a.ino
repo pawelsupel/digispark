@@ -34,7 +34,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   DigiKeyboard.delay(1000);
-  DigiKeyboard.print(F("Invoke-WebRequest https://gist.githubusercontent.com/chaliy/909561/raw/6c4b671104d73b85e79b19f2f656c9a9cac0c147/hello_world.ps1 -OutFile C:/tmp/hello_world.ps1"));
+  DigiKeyboard.print(F("Invoke-WebRequest https://github.com/pawelsupel/digispark/raw/main/scripts/hello_world/hello_world.ps1 -OutFile C:/tmp/hello_world.ps1"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   DigiKeyboard.delay(1000);
